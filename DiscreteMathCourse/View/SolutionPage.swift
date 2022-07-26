@@ -26,7 +26,7 @@ struct SolutionPage: View {
                         .foregroundColor(Color(UIColor.init(rgb: 0x228b22)))
                         .focused($stringIsFocused)
                     
-                    Image(systemName: "arrow.clockwise")
+                    Image(systemName: "arrow.counterclockwise")
                         .resizable()
                         .foregroundColor(.white)
                         .aspectRatio(contentMode: .fit)
